@@ -1,0 +1,210 @@
+/************************Universal Properties*******************************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.flex-container{
+    display: flex;
+}
+.margin-top{
+    margin-top:5%;
+}
+
+/************************Banner Style*******************************/
+.banner {
+    background-image: url('./images/top-banner.png');
+    background-repeat: no-repeat;
+}
+
+.banner-title{
+    font-size: 55px;
+    color:rgb(73, 65, 65);
+}
+
+.banner-sub-title{
+    font-size: 40px;
+    color: rgb(73, 65, 65);
+}
+.coral{
+    color:coral
+}
+.short-description{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.banner-text{
+    margin-top: 4%;   
+}
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+
+
+}
+.half-width img{
+    width:80%;
+
+}
+
+.our-recipe-btn{
+    margin-top:25px;
+    padding:10px 30px;
+    color:white;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    cursor: pointer;
+    font-size: 18px;
+    border:1px solid #fff;
+
+}
+
+/************************About Style*******************************/
+
+.about-us{
+    margin-top:5%;
+    padding-right: 5%;
+    background-image: url('/images/7.png');
+    background-repeat: no-repeat;
+
+}
+.about-us .half-width img{
+    margin-top: 5%;
+}
+.about-data{
+    padding:40px;
+}
+.about-us h3{
+    margin-top:5%;
+    font-size:40px;
+    color: rgb(73, 65, 65);
+}
+.about-text{
+    font-size: 19px;
+    text-align: justify;
+}
+.contact-btn{
+    margin-top:8px;
+    padding:10px 30px;
+    color:white;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    cursor: pointer;
+    font-size: 18px;
+    border:1px solid #fff;
+}
+
+
+.head-title{
+    text-align: center;
+    margin-bottom: 7%;
+}
+.head-title h3{
+    font-size:40px;
+    color: rgb(73, 65, 65);
+}
+
+.head-title p{
+    font-size: 19px;
+}
+
+/************************Recipe Style*******************************/
+.recipe-items{
+    width:90%;
+}
+.single-item{
+    width: 80%;
+    height: 10%;
+    margin-left:10%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 25px;
+}
+.item-img img{
+    width:100%;
+    border: 8px solid #fff;
+}
+.desc-body {
+    padding:25px;
+}
+
+/************************Category Style*******************************/
+
+.recipe-category{
+    background-image: url('/images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.category{
+    display: grid;
+    grid-template-columns: repeat(5, 0.5fr); 
+}
+
+.single-cat{
+    padding: 10%;
+}
+.single-cat a{
+    text-decoration: none;
+    color:rgb(85, 95, 95);
+}
+.single-cat h4{
+   
+    padding:20px;
+    border-radius: 15%;
+    text-align: center;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    box-shadow: 10px 10px 30px gray;
+    font-size: 19px;
+    color:rgb(104, 61, 45);
+    font-family: sans-serif;
+ 
+}
+
+
+
+/************************Contact Style*******************************/
+.input-field{
+    box-shadow: 10px 10px 30px gray;
+    padding:25px;
+ }
+input[type=text]{
+      width: 100%;
+      padding: 12px 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+  }
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contact-img img{
+    border-radius: 15px;
+}
+
+/************************Footer Style*******************************/
+footer{
+    padding:25px;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+
+}
+footer h2{
+    text-align: center;
+}
+footer p{
+    color:white;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    color:orange
+}
